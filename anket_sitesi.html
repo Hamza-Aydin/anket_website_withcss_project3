@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>14 Mayıs 2023 Anketi</title>
+    <link rel="stylesheet" href="./anket.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+
+<body id="anket">
+    <h1 id="a" class="title orta grey" style="color:blue; height: 50px;"><b>2023 Cumhurbaşkanlığı ve Genel Seçimleri
+            Anketi</b> </h1>
+    <p class="orta grey" style="font-size: 17px; margin-top: 4px; margin-bottom: 10px; "><em><b><mark>(Bu ankette
+                    paylaşacağınız bütün bilgiler herhangi bir üçüncü şahısla paylaşılmayacak olup sadece sonuç oranına
+                    istatistiksel olarak yansıyacaktır.)</mark> </b></em> </p>
+
+    <form class="orta " action="">
+
+        <label class="grey soru" for="name" style="color:red;font-size: 20px;"><b>İsim:</b> </label> <br>
+        <input class="focus" type="text" id="name" placeholder="isminiz..." required> <br>
+
+        <label class="grey soru" for="meslek" style="color:red;font-size: 20px;"><b>Meslek:</b></label> <br>
+        <input class="focus" type="text" id="meslek" placeholder="mesleğiniz..." required> <br>
+
+        <label class="grey soru" for="yaş" style="color:red; font-size: 20px;"><b>Yaş:</b></label> <br>
+        <input class="focus" type="number" id="yaş" placeholder="yaşınız..." required> <br>
+
+        <label class="grey soru" for="tarih" style="color:red; font-size: 20px;"><b>Tarih:</b> </label> <br>
+        <input class="focus" type="date" id="tarih" required> <br>
+
+
+        <span class=" soru" style="color:red;font-size: 20px;"><b>Medeni Hal:</b></span> <br>
+        <select name="medeni" id="medeni" required>
+            <option value="evli">evli</option>
+            <option value="bekar">bekar</option>
+        </select> <br>
+
+
+        <span class="baslık soru" style="color:red;font-size: 20px;"><b>Seçimlerde Hangi İttifağı
+                Destekleyeceksiniz?</b></span> <br>
+
+        <div class="bosluk">
+            <span class="baslık " style="font-size: 18px;"><b>Cumhur İttifağı</b> </span> <input type="radio"
+                name="İttifak" value="cumhur" required>
+            <span class="baslık " style="font-size: 18px;"><b>Millet İttifağı</b></span> <input type="radio"
+                name="İttifak" value="millet" required> <br>
+        </div>
+
+        <span class="soru baslık" style="color:red;font-size: 20px;"><b>Cumhurbaşkanı'nda Görmeyi Beklediğiniz
+                Özellikler Nelerdir?</b></span> <br>
+
+        <div class="bosluk">
+            <span><b> Adil</b></span> <input type="checkbox" name="adil">
+            <span><b>Karizma</b></span> <input type="checkbox" name="Karizma">
+            <span><b>Dürüstlük</b></span> <input type="checkbox" name="Dürüstlük">
+            <span><b>İleri Görüşlük</b></span> <input type="checkbox" name="ileri görüş">
+            <span><b>Milli Duruş</b></span> <input type="checkbox" name="milli duruş"> <br>
+        </div>
+
+
+        <span class="soru baslık" style="color:red;font-size: 20px;"><b>Seçimlerde Hangi Cumhurbaşkanı Adayını
+                Destekleyeceksiniz?</b></span> <br>
+
+        <div class="bosluk">
+            <span class="grey"><b>RECEP TAYYİP ERDOĞAN</b></span> <input type="radio" name="aday" id="rte" required>
+            <span class="grey"><b>KEMAL KILIÇDAROĞLU</b></span> <input type="radio" name="aday" id="kk" required>
+            <span class="grey"><b>MUHARREM İNCE</b></span> <input type="radio" name="aday" id="Mİ" required>
+            <span class="grey"><b>Sinan Oğan</b></span> <input type="radio" name="aday" id="so" required> <br>
+        </div>
+
+        <span class="soru baslık" style="color:red;font-size: 20px;"><b>14 Mayıs Genel Seçimlerinde Hangi Partiyi
+                Destekleyeceksiniz?</b></span> <br>
+
+        <div class="bosluk"><span class="grey" style="color:rgb(255, 179, 0)"><b>AK PARTİ</b></span> <input type="radio"
+                name="parti" id="akp">
+            <span class="grey" style="color:rgb(255, 179, 0)"><b>MHP</b></span> <input type="radio" name="parti"
+                id="mhp" required>
+            <span class="grey" style="color:green"><b>CHP</b></span> <input type="radio" name="parti" id="CHP" required>
+            <span class="grey" style="color:green"><b>İYİ PARTİ</b></span> <input type="radio" name="parti" id="İP"
+                required>
+            <span class="grey" style="color:green"><b>DEVA PARTİSİ</b></span> <input type="radio" name="parti"
+                id="DEVAP" required>
+            <span class="grey" style="color:green"><b>GELECEK PARTİSİ</b></span> <input type="radio" name="parti"
+                id="GP" required>
+            <span class="grey" style="color:green"><b>SAADET PARTİSİ</b></span> <input type="radio" name="parti" id="SP"
+                required>
+            <span class="grey" style="color:green"><b>DEMOKRAT PARTİ</b></span> <input type="radio" name="parti" id="DP"
+                required>
+            <span class="grey" style="color:black"><b>ZAFER PARTİSİ</b></span> <input type="radio" name="parti" id="ZP"
+                required>
+            <span class="grey" style="color:blue"><b>MEMLEKET PARTİSİ</b></span> <input type="radio" name="parti"
+                id="MP" required>
+        </div>
+
+        <br>
+
+        <label class="soru baslık" style="color:red;font-size: 20px;" for="not"><b> Anketle İlgili Olarak veya Ekstra Bildirmek İstedikleriniz:</b> </label> <br>
+        <textarea class="focus" style="margin-left: 5px; margin-top: 10px;" name="not" id="not" cols="80" rows="10"
+            placeholder="görüşleriniz..."></textarea> <br> <br>
+
+        <p
+            style="color:#f2f2f2;background-color: rgb(118, 118, 118); width: 40%; padding: 10px;margin-left: 2px; border: #f2f2f2 1px solid; border-radius: 4px; font-size: 20px;">
+            <b>Anketi Tamamladınız Görüşleriniz için Teşekkür Ederiz...</b>
+        </p>
+        <p style="color:#0274b4; font-size: 18px; margin-top: 10px; margin-left: 5px;"><mark><em><b>Bize Sosyal
+                         Medya Kanallarımızdan Ulaşabilirsiniz!! </b> </em></mark> </p>
+        <input class="buyut" type="submit"></input>
+        <input class="buyut" type="reset"></input>
+
+        <a href="https://www.instagram.com/new.yazilimci/?next=%2F" target="_blank"><i
+                    class="fa-brands fa-square-instagram fa-flip fa-2xl i1" style="color: #b002e0;"></i></a>
+        <a href="https://www.linkedin.com/in/hamza-ayd%C4%B1n-b3622520b/" target="_blank"><i
+                    class="fa-brands fa-linkedin fa-flip fa-2xl i2" style="color: #0274b4;"></i></a>
+        <a href="https://github.com/Hamza-Aydin" target="_blank"><i
+                    class="fa-brands fa-square-github fa-flip fa-2xl i3" style="color: #000000;"></i></a>
+
+
+    </form>
+</body>
+
+</html>

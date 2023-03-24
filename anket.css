@@ -1,0 +1,96 @@
+*{
+    margin:0;
+    font-family: 'Oswald', sans-serif;
+}
+
+#anket{
+    background-image: url(./anket.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+h1{
+    background-color: #0274B3;
+    color: #f2f2f2 !important;
+    width: 50%;
+    padding-top: 5px;
+    text-align: center;
+    border: #f2f2f2 solid 3px;
+    border-radius: 5px;
+}
+.soru{
+    color: #f2f2f2 !important;
+    background-color: #0274B3 !important;
+    border: solid #f2f2f2 3px;
+    border-radius: 5px;
+    padding: 7px;
+    margin: 0px 2px;
+    font-size: 25px !important;
+}
+
+input{
+    padding: 15px;
+    margin:15px 2px;
+    
+}
+select{
+    padding: 15px;
+    margin:10px 2px;
+}
+
+span{
+    font-size: 20px;
+    text-transform: uppercase;
+    margin: 0px 2px;
+}
+
+.bosluk{
+    margin:15px 2px !important;
+    font-size: 25px;
+    background-color: #f2f2f2;
+    width: 50%;
+    text-align: center;
+    border-radius: 15px;
+}
+button{
+    color: #f2f2f2;
+    background-color: #0274B3;
+    border: #f2f2f2 solid 3px;
+    border-radius: 5px;
+}
+.buyut{
+    font-size: 22px;
+    background-color: #0274B3;
+    color: #f2f2f2;
+    border-radius: 10px;
+    border: #f2f2f2 3px solid;
+}
+.buyut:hover{
+    background-color: #f2f2f2;
+    color:#0274B3 ;
+    border-color: #0274B3;
+    cursor: pointer;
+}
+.focus{
+    border-radius: 3px;
+}
+.focus:focus{
+    outline: none;
+    border: #0274B3 2px solid;
+    border-radius: 3px;
+}
+i{
+    position: fixed;
+    bottom:20px;
+}
+.i1{
+    right: 100px;
+}
+.i2{
+    right: 60px;
+}
+.i3{
+    right: 20px;
+}
